@@ -7,6 +7,7 @@ allowed_attempts = 3
 asking_for_input = True
 
 # while loop asking for input, as long as asking_for_input is true
+# ask for input while hiding the entered pin from echo
 while asking_for_input:
     supplied_pin = getpass.getpass(prompt="Enter your PIN: ")
 
