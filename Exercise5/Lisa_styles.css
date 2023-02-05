@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+      
+      font: 20px 'Indie Flower', cursive;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #F25430; /* Amaranth Deep Purple */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #3AA67F; /* Dark Gunmetal */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #F5E6E8; /* Isabelline */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #85F2CB; /* Charcoal */
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #9B287B !important;
+  }
+
+  .btn {
+    border-radius: 50px;
+  }

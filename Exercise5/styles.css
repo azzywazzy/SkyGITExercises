@@ -1,0 +1,18 @@
+body {
+    font: verdana, sans-serif;
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 20px;
+    color:navy;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+
+footer {
+    background-color: dimgray;
+    color: white;
+    font-size: 16px;
+}

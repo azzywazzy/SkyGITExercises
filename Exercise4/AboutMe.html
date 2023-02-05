@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="AboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Favourites.html">Favourites</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark  btn-lg" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>Hello!</h1>
+    <section>
+        <p id="subtitle"><b><i>Welcome to my terrible little page</i></b></p>
+    </section>
+
+    <section class="container-fluid" id="accordion-row">
+        <div class="row justify-content-evenly">
+            <h2>About Me</h2>
+        <figure class="figure col-sm-4">
+            <img src="images/me.jpg" class="figure-img img-fluid rounded" alt="A picture of Arianne" width="300">
+            <figcaption class="figure-caption">Hi! I'm Arianne and I live in Leeds.</figcaption>
+        </figure>
+
+        <div class="accordion col-sm-8" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <p>At the moment I work as a marketing consultant and trainer, but I'm hoping to move into a career in tech</p>
+        <p>I have a bunch of different hobbies and ways I like to spend time:</p>
+        <ul>
+            <li>Knitting</li>
+            <li>Sewing</li>
+            <li>Video Games</li>
+            <li>3D Printing</li>
+            <li>Trying to take up running, but it's oh so hard and I hate it</li>
+        </ul>
+    </section>
+
+    <article>
+        <p>Self-contained article (as I needed to add one!) here that's actually just kitty lorem ipsum</p>
+        <p>Prow?? ew dog you drink from the toilet, yum yum warm milk hotter pls, ouch too hot. Leave dead animals as
+            gifts bite off human's toes ha ha, you're funny i'll kill you last meow to be let in and cat slap dog in
+            face. I heard this rumor where the humans are our owners, pfft, what do they know?! hiss and stare at
+            nothing then run suddenly away stinky cat. Sit on human play with twist ties so leave dead animals as gifts,
+            or get away from me stupid dog for weigh eight pounds but take up a full-size bed for pet right here, no not
+            there, here, no fool, right here that other cat smells funny you should really give me all the treats
+            because i smell the best and omg you finally got the right spot and i love you right now, yet man running
+            from cops stops to pet cats, goes to jail. Rub whiskers on bare skin act innocent decide to want nothing to
+            do with my owner today or in the middle of the night i crawl onto your chest and purr gently to help you
+            sleep rub butt on table or curl into a furry donut. Terrorize the hundred-and-twenty-pound rottweiler and
+            steal his bed, not sorry commence midnight zoomies, hiss and stare at nothing then run suddenly away or
+            scratch. Have secret plans scamper. Hit you unexpectedly Gate keepers of hell, for thug cat for kitty
+            pounce, trip, faceplant you didn't see that no you didn't definitely didn't lick, lick, lick, and preen away
+            the embarrassment meow and walk away but cat gets stuck in tree firefighters try to get cat down
+            firefighters get stuck in tree cat eats firefighters' slippers and brown cats with pink ears. Destroy the
+            blinds. Funny little cat chirrup noise shaking upright tail when standing next to you lick plastic bags.
+        </p>
+    </article>
+
+    <br>
+
+    <section>
+        <h2>About Willow</h2>
+        <img src="images/willow.jpg" alt="A picture of Willow" width="300" />
+        <p>Hey! This is Willow. Time to learn a little bit about this cranky lady</p>
+        <ul>
+            <li>She has no teeth</li>
+            <li>We don't know how old she is - somewhere between 14 and 20</li>
+            <li>She can't meow properly - she just squawks</li>
+            <li>Due to the lack of teeth, when she purrs, she dribbles over everything!</li>
+        </ul>
+    </section>
+    <div class="container">
+        <section class="row justify-content-evenly">
+            <div class="card text-bg-light col-sm-4">
+                <img src="images/willow-dribble.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-bg-light col-sm-4">
+                <img src="images/willow-games.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-bg-light col-sm-4">
+                <img src="images/willow-mtg.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="row justify-content-evenly">
+            <div class="card text-bg-light col-sm-4">
+                <img src="images/willow-pizza.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-bg-light col-sm-4">
+                <img src="images/willow-snuggled.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+</body>
+
+<footer>
+    Copyright Arianne 2023 &copy;
+</footer>
+
+</html>
