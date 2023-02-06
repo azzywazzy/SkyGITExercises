@@ -20,7 +20,6 @@ while askingForInput:
         carryOn = input("Would you like to carry on? Type y/n and hit Enter: ")
         if carryOn == "n":
             askingForInput = False
-            print("Thank you, come again!")
 
     # check which operator was used and calculate accordingly
     elif operator == "-":
@@ -29,7 +28,6 @@ while askingForInput:
         carryOn = input("Would you like to carry on? Type y/n and hit Enter: ")
         if carryOn == "n":
             askingForInput = False
-            print("Thank you, come again!")
 
     # check which operator was used and calculate accordingly
     elif operator == "*":
@@ -38,7 +36,6 @@ while askingForInput:
         carryOn = input("Would you like to carry on? Type y/n and hit Enter: ")
         if carryOn == "n":
             askingForInput = False
-            print("Thank you, come again!")
 
     # check which operator was used and calculate accordingly
     elif operator == "/":
@@ -47,8 +44,9 @@ while askingForInput:
         carryOn = input("Would you like to carry on? Type y/n and hit Enter: ")
         if carryOn == "n":
             askingForInput = False
-            print("Thank you, come again!")
 
     # if an incorrect operator was used, flag with user and remind of accepted inputs
     else:
         print("Please enter a valid operator. Only +, -. *, or / are permitted")
+
+print("Thank you, come again!")
