@@ -47,6 +47,6 @@ while askingForInput:
 
     # if an incorrect operator was used, flag with user and remind of accepted inputs
     else:
-        print("Please enter a valid operator. Only +, -. *, or / are permitted")
+        print("Only +, -. *, or / are permitted. Please run the program again.")
 
 print("Thank you, come again!")
