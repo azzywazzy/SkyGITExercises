@@ -1,5 +1,5 @@
 # Notes
-# Doesn't validate number input (check that it's suitable
+# Doesn't validate number input (check that it's suitable)
 # Does validate that operators are one of the selected options - is there a better way?
 # Doesn't validate y/n selection - just carries on if anything except "n" is entered
 # Have explicitly only delivered what was asked for in the requirements
