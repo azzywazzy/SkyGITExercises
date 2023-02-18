@@ -9,6 +9,3 @@ lotteryTuple = tuple(lottery)
 
 print(lottery)
 print(sorted(lotteryTuple))
-
-
-
