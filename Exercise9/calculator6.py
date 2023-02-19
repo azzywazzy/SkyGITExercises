@@ -14,7 +14,7 @@ while askingForInput:
 
     # check to see if the user has asked for history, or to quit
     if "h" in elements:
-        print("\n".join(pastCalculations))
+        print("Your calculation history is:\n" + "\n".join(pastCalculations))
         askingForInput = False
         continue
 
