@@ -1,6 +1,6 @@
 import random
 
-lottery = set({})
+lottery = set()
 
 while len(lottery) < 6:
     lottery.add(random.randint(1, 50))
