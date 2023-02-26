@@ -62,7 +62,7 @@ while askingForInput:
         divideSum = int(elements[0])
         for e in elementsToCalc:
             divideSum = divideSum / int(e)
-        divideString = str("\U00002797 {} = {}".format(userInput.replace(" ", " + "), divideSum))
+        divideString = str("\U00002797 {} = {}".format(userInput.replace(" ", " / "), divideSum))
         print(divideString)
         pastCalculations.append(divideString)
 
