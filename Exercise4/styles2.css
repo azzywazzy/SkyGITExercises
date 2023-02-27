@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: #DED9E2;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar {
+
+}
+
+.bg-body-tertiary {
+    background-color: #c0b9dd !important;
+}
+
+#heading {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#accordion-row {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #c0b9dd;
+    color: #000000
+}
+
+.accordion-button:focus {
+    border-color: #75C9C8;
+    box-shadow: #75C9C8;
+}
